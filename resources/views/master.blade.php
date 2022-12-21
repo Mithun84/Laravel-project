@@ -62,8 +62,8 @@
                background-image: none;
              }
              .align_h4{
-               color: #000;
-               text-decoration: none;
+               color: black !important;
+               /* text-decoration: none; */
                text-align: center;
              }
              .carousel-control-next-icon:after{
