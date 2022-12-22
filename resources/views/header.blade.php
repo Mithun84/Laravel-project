@@ -13,7 +13,7 @@ if(Session::has('user')){
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="/ ">Brand</a>
+        <a class="navbar-brand" href="/ ">iCoder</a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -28,7 +28,9 @@ if(Session::has('user')){
         </form>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 cart_right">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/cartlist">Cart({{$total}})</a>
+          
+          <a class="nav-link active" aria-current="page" href="/cartlist"><i class="fa-solid fa-cart-plus"></i><span class='sticky-top badge badge-danger badge-pill' > {{$total}}</span></a>
+
           </li>
           @if(Session::has('user'))
             <li class="nav-item dropdown">
@@ -37,6 +39,7 @@ if(Session::has('user')){
               </a>
               <div class="dropdown-menu">
                 <a href="/logout">Logout</a>
+                
               </div>
             </li>
             @else

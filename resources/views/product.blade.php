@@ -1,6 +1,5 @@
 @extends('master')
 @section("content")
-<livewire:counter/>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -8,7 +7,7 @@
     <div class="carousel-inner">
         @foreach($products as $key => $item)
         <div class="carousel-item {{$key == 0 ? 'active' : '' }}">
-            <img src="{{ $item->gallery }}" class="d-block w-100 slider_image"  alt="image"> 
+            <img src="{{ $item->gallery }}" class="d-block slider_image"  alt="image"> 
         </div>
         @endforeach
     </div>
