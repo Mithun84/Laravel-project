@@ -1,83 +1,159 @@
-.custom_login{
+*{
+  overflow-x: clip;
+  margin: 0px;
+  padding: 0px;
+}
+.custom_login {
   height: 513px;
-  padding-top:100px;
-   }
-   .cart_right{
-     margin-left:30%;
-     justify-content: center !important;
-    align-items: center;
+  padding-top: 100px;
+}
+
+.cart_right {
+  margin-left: 30%;
+  justify-content: center !important;
+  align-items: center;
 }
 
 
-   
-   .slider_image{
-      height: 400px !important; 
-   }
-   .product_margin_top{
-     margin-left:60px;
-     margin-top: 50px;
-     margin-bottom:20px;
-   }
-   .product_margin{
-     margin-left:60px;
-   }
-  
-   .trending_image{
-      height:100px;
-   }
-   .trending-item{
-      float:left;
-      width:25%;
-      padding: 0px;
-     }
-   
-   .detail_img{
-      height:200px;
-   }
-   .carousel-control-prev-icon,
-   .carousel-control-next-icon {
-     background-image: none;
-   }
-   .align_h4{
-     color: #b81162;
-     text-decoration: none;
-     text-align: center;
-   }
-   .carousel-control-next-icon:after{
-     content: '>' !important;
-     font-size: 30px !important;
-     color: red !important;
-   }
-   .carousel-control-prev{
-        opacity: 1 !important;
 
-   }
-   .carousel-control-next, .carousel-control-prev{
-    opacity: 1 !important;
+.slider_image {
+  height: 400px !important;
+}
 
-   }
-   
-   .carousel-control-prev-icon:after {
-     content: '<' !important;
-     font-size: 30px !important;
-     font-weight:700px !important;
-     color: red !important;
+.product_margin_top {
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
 
-   }
-   .cart_list_divider{
-    border-bottom: 1px solid #ccc;
-    margin-bottom:20px;
-    padding-bottom: 20px;
-   }
-   .image-caption {
-    position: relative;
-    background-color: #234e2385 ;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-    line-height: 5px;
-    margin: -100px 150px 0px 150px;
-    
-  }
- 
-  
+.product_margin {
+  margin-left: 60px;
+}
+
+.trending_image {
+  height: 100px;
+}
+
+.trending-item {
+  float: left;
+  width: 25%;
+  padding: 0px;
+  text-align: center;
+}
+
+.detail_img {
+  height: 200px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.align_h4 {
+  color: #b81162;
+  text-decoration: none;
+  text-align: center;
+}
+
+.carousel-control-next-icon:after {
+  content: '>' !important;
+  font-size: 30px !important;
+  color: red !important;
+}
+
+.carousel-control-prev {
+  opacity: 1 !important;
+
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1 !important;
+
+}
+
+.carousel-control-prev-icon:after {
+  content: '<' !important;
+  font-size: 30px !important;
+  font-weight: 700px !important;
+  color: red !important;
+
+}
+
+.cart_list_divider {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.image-caption {
+  position: relative;
+  background-color: #234e2385;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  line-height: 5px;
+  margin: -100px 150px 0px 150px;
+
+}
+hr{
+  width:15%;
+  height:2px;
+  background-color: red;
+  margin-top: 0px;
+  /* color: red; */
+}
+.bg_color{
+  background-color: #2C2F31;
+}
+.margin_left{
+  margin-left: 80px;
+}
+a{
+  text-decoration: none;
+}
+.line_height{
+  line-height: 2;
+}
+.about_us{
+  font-size:14px;
+}
+.font_style{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.social_icon_fb{
+  background: #1771E6;
+  color: #fff;
+}
+.social_icon_insta{
+  background: #F003B5;
+  color: #fff;
+}
+.social_icon_twitter{
+  background: #1C98E5;
+  color: #fff;
+}
+.social_icon a{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 15px;
+
+}
+.social_icon{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.footer_copyright{
+  background-color: #000;
+  text-align: center;
+  padding:5px;
+}
